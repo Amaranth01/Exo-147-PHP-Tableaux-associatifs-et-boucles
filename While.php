@@ -34,3 +34,22 @@ echo "Je dors enfin...<br><br>";
 
 // TODO Votre code ici !
 
+$nombreDeVache = 1;
+echo "1.Je vais compter 25 vaches pour dormir : <br>";
+while ($nombreDeVache <= 25) {
+    echo $nombreDeVache . " vache(s) <br>";
+    $nombreDeVache++;
+}
+echo "Je dors enfin...<br><br>";
+
+$nombreVaches = 1;
+$dodo = false;
+echo "2.Je vais compter les vaches pour dormir : <br>";
+while ($dodo === false) {
+    echo $nombreVaches . " vache(s) <br>";
+    $nombreVaches++;
+    if ($nombreVaches > 25) {
+        $dodo = true;
+    }
+}
+echo "Je dors enfin...<br><br>";
